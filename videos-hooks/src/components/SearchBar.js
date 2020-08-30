@@ -21,7 +21,7 @@ const SearchBar = ({ handleSearchSubmit }) => {
     <div className="ui segment">
       <form className="ui form" onSubmit={handleFormSubmit}>
         <div className="field">
-          <label>Video Search</label>
+          <label>Video the Search</label>
           <input // Controlled input element (value passes through state)
             type="text"
             value={inputString}
